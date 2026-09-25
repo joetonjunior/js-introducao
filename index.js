@@ -22,7 +22,9 @@ console.log(alunos[2]);
 let aluno = {
     nome: "Joe",
     email: "joe@email.com",
-    genero: "masculino"
+    genero: "masculino",
+    idade: 30,
+    fumante: true
 } //Object
 console.log(aluno);
 console.log(aluno.nome);
@@ -47,7 +49,7 @@ console.log("2+2=", 2+2);
 console.log("2-2=", 2-2);
 console.log("2/2=", 2/2);
 console.log("2*2=", 2*2);
-console.log("100%3=", 100%3);
+console.log("100%3=", 100%3); //resto da divisão
 
 // operadores de comparação
 console.log("2 == 2: ", 2 == 2); // igual
