@@ -78,3 +78,13 @@
 //   console.log("Valor do frete: R$" + valorfrete.toFixed(2));       
 //   console.log ("Valor total: R$" +(valorcompra+valorfrete).toFixed(2));
 // }
+
+// // exercício 10
+// let numero = 2, iniciointervalo = 10, fimintervalo = 50;
+// if (iniciointervalo < numero && numero < fimintervalo){
+//   console.log("Numero " + numero + " está no intervalo!");
+// }else{
+//   console.log("Numero " + numero + " está fora do intervalo");
+// }
+
+
