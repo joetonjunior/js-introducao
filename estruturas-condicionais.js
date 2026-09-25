@@ -69,5 +69,12 @@
 //     console.log("Acesso negado");
 // }
 
-
-
+// // exercício 9
+// let valorcompra = 200, valorfrete = 20;
+// if(valorcompra >= 200){
+//   console.log("valor da compra R$" + valorcompra.toFixed(2) + " com frete grátis.");
+// }else{
+//   console.log("Valor da compra R$" + valorcompra.toFixed(2));
+//   console.log("Valor do frete: R$" + valorfrete.toFixed(2));       
+//   console.log ("Valor total: R$" +(valorcompra+valorfrete).toFixed(2));
+// }
