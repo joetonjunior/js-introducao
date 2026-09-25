@@ -59,7 +59,15 @@
 //     console.log("Compra sem desconto!")
 // }
 
-// exercício 7
+// // exercício 7
+// let ano = 2026;
+// if(ano % 400 == 0 && ano % 100 == 0){
+//   console.log("O ano é bissexto");
+// }else if(ano % 4 == 0 && ano % 100 != 0){
+//   console.log("O ano é bissexto.");
+// }else{
+//   console.log("O ano não é bissexto.")
+// }
 
 // exercício 8
 // let usuario = "admin", senha = "1234";
