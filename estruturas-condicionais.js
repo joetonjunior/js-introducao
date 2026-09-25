@@ -1,24 +1,24 @@
 // // exercício 1
-//     let idade = 1;
-//     if(idade >= 18){
-//         console.log("Maior de idade");
-//     } else{
-//         console.log("Menor de idade");
-//     }
+    // let idade = 19;
+    // if(idade >= 18){
+    //     console.log(`${idade} é maior de idade`);
+    // } else{
+    //     console.log(`${idade} é menor de idade`);
+    // }
 
 // // exercício 2
 // let numero = -1
 // if(numero == 0){
 //     console.log("É zero!");
 // }else if(numero > 0){
-//     console.log("Numero Positivo!");
+//     console.log(`${numero} é numero Positivo!`);
 // }else{
-//     console.log("Numero Negativo!")
+//     console.log(`${numero} é numero Negativo!`)
 // }
 
 // // exercício 3
-// let num1 = 5
-// let num2 = 3
+// let num1 = 3
+// let num2 = 5
 // if(num1 == num2){
 //     console.log("Os números são iguais.");
 // }else if(num1 > num2){
@@ -80,19 +80,17 @@
 // // exercício 9
 // let valorcompra = 200, valorfrete = 20;
 // if(valorcompra >= 200){
-//   console.log("valor da compra R$" + valorcompra.toFixed(2) + " com frete grátis.");
+//   console.log(`valor da compra R$ ${valorcompra.toFixed(2)} com frete grátis.`);
 // }else{
-//   console.log("Valor da compra R$" + valorcompra.toFixed(2));
-//   console.log("Valor do frete: R$" + valorfrete.toFixed(2));       
-//   console.log ("Valor total: R$" +(valorcompra+valorfrete).toFixed(2));
+//   console.log(`Valor da compra R$ ${valorcompra.toFixed(2)}`);
+//   console.log(`Valor do frete: R$" ${valorfrete.toFixed(2)}`);       
+//   console.log (`Valor total: R$ ${(valorcompra+valorfrete).toFixed(2)}`);
 // }
 
 // // exercício 10
 // let numero = 2, iniciointervalo = 10, fimintervalo = 50;
 // if (iniciointervalo < numero && numero < fimintervalo){
-//   console.log("Numero " + numero + " está no intervalo!");
+//   console.log(`Numero ${numero} está no intervalo!`);
 // }else{
-//   console.log("Numero " + numero + " está fora do intervalo");
+//   console.log(`Numero ${numero} está fora do intervalo`);
 // }
-
-
