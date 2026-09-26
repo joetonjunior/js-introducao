@@ -1,30 +1,31 @@
+
 // // exercício 1
-    // let idade = 19;
-    // if(idade >= 18){
-    //     console.log(`${idade} é maior de idade`);
-    // } else{
-    //     console.log(`${idade} é menor de idade`);
-    // }
+//     let idade = 18;
+//     if(idade >= 18){
+//         console.log(`${idade} é maior de idade`);
+//     } else{
+//         console.log(`${idade} é menor de idade`);
+//     }
 
 // // exercício 2
-// let numero = -1
+// let numero = -1;
 // if(numero == 0){
 //     console.log("É zero!");
 // }else if(numero > 0){
 //     console.log(`${numero} é numero Positivo!`);
 // }else{
-//     console.log(`${numero} é numero Negativo!`)
+//     console.log(`${numero} é numero Negativo!`);
 // }
 
 // // exercício 3
-// let num1 = 3
-// let num2 = 5
+// let num1 = 3;
+// let num2 = 5;
 // if(num1 == num2){
 //     console.log("Os números são iguais.");
 // }else if(num1 > num2){
 //     console.log(`${num1} é maior que ${num2}`);
 // }else{
-//     console.log(`${num2} é maior que ${num1}`)
+//     console.log(`${num2} é maior que ${num1}`);
 // }
 
 // //exercício 4
@@ -37,7 +38,7 @@
 // }
 
 // // exercício 5
-// let nota1 = 7, nota2 = 8, nota3 = 7
+// let nota1 = 7, nota2 = 8, nota3 = 7;
 // let media = (nota1 + nota2 + nota3)/3;
 // if (media >= 7){
 //     console.log(`Aluno aprovado com nota ${media.toFixed(1)}`);
@@ -47,16 +48,16 @@
 //     console.log(`Aluno reprovado com média ${media.toFixed(1)}`);
 // }
 
-// exercício 6
-// let valor = 120.85
-// let valororiginal = 0
-// let desconto = 10
+// // exercício 6
+// let valor = 120.85;
+// let valororiginal = 0;
+// let desconto = 10;
 // if(valor >= 100){
-//     valororiginal = valor
+//     valororiginal = valor;
 //     valor = (valor/100) *(100 - desconto);
-//     console.log(`Compra de R$ ${valororiginal.toFixed(2)} com desconto de ${desconto}%. Valor final R$ ${valor.toFixed(2)}`)
+//     console.log(`Compra de R$ ${valororiginal.toFixed(2)} com desconto de ${desconto}%. Valor final R$ ${valor.toFixed(2)}`);
 // }else{
-//     console.log("Compra sem desconto!")
+//     console.log(`Compra de R$ ${valor.toFixed(2)}`);
 // }
 
 // // exercício 7
@@ -66,10 +67,10 @@
 // }else if(ano % 4 == 0 && ano % 100 != 0){
 //   console.log("O ano é bissexto.");
 // }else{
-//   console.log("O ano não é bissexto.")
+//   console.log("O ano não é bissexto.");
 // }
 
-// exercício 8
+// // exercício 8
 // let usuario = "admin", senha = "1234";
 // if (usuario == "admin" && senha == "1234"){
 //     console.log("Acesso permitido");
@@ -83,14 +84,15 @@
 //   console.log(`valor da compra R$ ${valorcompra.toFixed(2)} com frete grátis.`);
 // }else{
 //   console.log(`Valor da compra R$ ${valorcompra.toFixed(2)}`);
-//   console.log(`Valor do frete: R$" ${valorfrete.toFixed(2)}`);       
+//   console.log(`Valor do frete: R$ ${valorfrete.toFixed(2)}`);       
 //   console.log (`Valor total: R$ ${(valorcompra+valorfrete).toFixed(2)}`);
 // }
 
 // // exercício 10
 // let numero = 2, iniciointervalo = 10, fimintervalo = 50;
-// if (iniciointervalo < numero && numero < fimintervalo){
+// if (iniciointervalo <= numero && numero <= fimintervalo){
 //   console.log(`Numero ${numero} está no intervalo!`);
 // }else{
 //   console.log(`Numero ${numero} está fora do intervalo`);
 // }
+
