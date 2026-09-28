@@ -29,15 +29,15 @@
 // }
 
 // //exercício 4
-// let numero = 0
+// let numero = 0;
 
 // if (numero % 2 == 0){
-//     console.log(`O número ${numero} e par!`)
+//     console.log(`O número ${numero} e par!`);
 // }else{
-//     console.log(`O número ${numero} é ímpar`)
+//     console.log(`O número ${numero} é ímpar`);
 // }
 
-// // exercício 5
+// exercício 5
 // let nota1 = 7, nota2 = 8, nota3 = 7;
 // let media = (nota1 + nota2 + nota3)/3;
 // if (media >= 7){
@@ -60,7 +60,7 @@
 //     console.log(`Compra de R$ ${valor.toFixed(2)}`);
 // }
 
-// // exercício 7
+// exercício 7
 // let ano = 2026;
 // if(ano % 400 == 0 && ano % 100 == 0){
 //   console.log("O ano é bissexto");
