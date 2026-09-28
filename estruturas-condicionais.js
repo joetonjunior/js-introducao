@@ -96,3 +96,22 @@
 //   console.log(`Numero ${numero} está fora do intervalo`);
 // }
 
+// let semaforo = "verde";
+// switch(semaforo){
+//     case "vermelho":
+//         console.log("Pare");
+//         break;
+//     case "amarelo":
+//         console.log("Diminua a velocidade");
+//         break;
+//     case "verde":
+//         console.log("Siga em frente");
+//         break;
+//     default:
+//         console.log("Semáforo com defeito");    
+// }
+
+// let moeda = false;
+// moeda == true ? console.log("Cara") : console.log("Coroa")
+
+(2 % 2==0)? console.log("Par"):console.log("Impar");
